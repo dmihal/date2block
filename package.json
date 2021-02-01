@@ -1,0 +1,22 @@
+{
+  "name": "date2block",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "David Mihal <david@dmihal.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmihal/date2block.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "generate": "node script/generateTable"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
